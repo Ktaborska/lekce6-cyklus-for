@@ -6,9 +6,17 @@
 console.log('První příklad - vzestupná řada 0 - 10');
 
 //TADY NAPIS CYKLUS
-for (i = 0; i <= 10; i++ ){
+/*for (i = 0; i <= 10; i++ ){
 console.log(i);
 }
+*/
+
+let a = 0;
+while (a <= 10) {
+    a++
+    console.log(a)
+}
+
 
 // Druhý příklad - zkopíruj předchozí příklad
 // a vyzkoušej, jaký je rozdíl mezi <= a <
