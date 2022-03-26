@@ -14,20 +14,19 @@ while (a <= 10) {
 // Druhý příklad - zkopíruj předchozí příklad
 // a vyzkoušej, jaký je rozdíl mezi <= a <
 // v podmínce uvnitř cyklu
-
 console.log('Druhý příklad - rozdíl mezi <= a <');
 
-//TADY NAPIS CYKLUS
+a = 0;
+while (a < 10) {
+    console.log(a)
+    a = a + 1;  
+}
 
-for (i = 0; i < 10; i++ ){
-    console.log(i);
-    }
-    
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
 console.log('Třetí příklad - sestupná řada 10 - 0');
 
-//TADY NAPIS CYKLUS
-
-for (i = 10; i >= 0; i--){
-    console.log(i)
+a = 10;
+while (a >= 0) {
+    console.log(a);
+    a = a - 1;
 }
